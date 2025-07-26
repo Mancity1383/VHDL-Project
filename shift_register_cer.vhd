@@ -3,7 +3,7 @@ USE IEEE.std_logic_1164.ALL;
 USE IEEE.numeric_std.ALL;
 
 ENTITY Shift_Register IS
-    GENERIC (
+    generic (
         MBIT : INTEGER := 8
     );
     PORT (
